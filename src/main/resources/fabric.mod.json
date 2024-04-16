@@ -3,7 +3,7 @@
   "id": "skipfirsthalf",
   "version": "${version}",
   "name": "SkipFirstHalf",
-  "description": "A LunarCore mod which allows you to skip the first half of MoC.",
+  "description": "A LunarCore mod which allows you to skip the first half of MoC or Pure Fiction.",
   "authors": [
     "yuko1101"
   ],
