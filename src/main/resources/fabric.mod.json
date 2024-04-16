@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "skipfirsthalf",
   "version": "${version}",
-  "name": "ExampleMod",
-  "description": "Your mod description.",
+  "name": "SkipFirstHalf",
+  "description": "A LunarCore mod which allows you to skip the first half of MoC.",
   "authors": [
-    "You"
+    "yuko1101"
   ],
   "contact": {
-    "website": "https://example.com",
-    "repo": "https://example.com/you/your_repo"
+    "website": "https://github.com/yuko1101/SkipFisrtHalfMod",
+    "repo": "https://github.com/yuko1101/SkipFisrtHalfMod"
   },
   "license": "MIT",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/skipfirsthalf/icon.png",
   "environment": "server",
   "entrypoints": {
     "main": [
-      "com.example.examplemod.ExampleMod"
+      "io.github.yuko1101.skipfirsthalf.SkipFirstHalfMod"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "skipfirsthalf.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
